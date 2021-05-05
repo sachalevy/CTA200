@@ -1,0 +1,39 @@
+ 1006  git clone git@github.com:sachalevy/CTA200.git
+ 1007  cd cta200
+ 1008  echo '#CTA200 repo' >> README.md
+ 1009  touch LICENSE
+ 1010  nano LICENSE
+ 1011  git init
+ 1012  ls
+ 1013  git add ,
+ 1014  git add .
+ 1015  git commit -m "add readme + license for assignment 1"
+ 1016  git branch -m master
+ 1017  git branch -M master
+ 1018  git remote add origin git@github.com:sachalevy/CTA200.git
+ 1019  git branch
+ 1020  git remote add origin git@github.com:sachalevy/CTA200.git
+ 1021  git branch --help
+ 1022  git branch -M main
+ 1023  git remote add origin git@github.com:sachalevy/CTA200.git
+ 1024  ls
+ 1025  git push -u origin main
+ 1026  nano README.md
+ 1027  git add .
+ 1028  git commit -m 'modify markdown syntax in readme file'
+ 1029  git branch
+ 1030  git push
+ 1031  mkdir assignment_1
+ 1032  cd assignment_1
+ 1033  make
+ 1034  ls
+ 1035  ./average
+ 1036  make\\n
+ 1037  make install
+ 1038  make install
+ 1039  make
+ 1040  make install
+ 1041  ./cumsum
+ 1042  git add .
+ 1043  git commit -m "added cumulative sum c program"
+ 1044  git push
